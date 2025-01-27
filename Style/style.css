@@ -1,194 +1,228 @@
 /* common shared styles */
-body {
-   
-}
+
 .text-primary {
-    color: #fd6e0a;
+  color: #fd6e0a;
 }
 .btn-primary {
-    border-radius: 5px;
-    background-color: #fd6e0a;
-    border: 0;
-    color: white;
-    font-size: 20px;
-    font-weight: 700;
-    padding: 15px 35px;
+  border-radius: 5px;
+  background-color: #fd6e0a;
+  border: 0;
+  color: white;
+  font-size: 20px;
+  font-weight: 700;
+  padding: 15px 35px;
 }
 
 /* nav related styles  */
 nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 0 200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 200px;
 }
 .nav-title {
-    color: #181818;
-    font-size: 45px;
-    font-weight: 800px;
+  color: #181818;
+  font-size: 45px;
+  font-weight: 800px;
 }
 nav > ul {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 nav li {
-    list-style: none;
-    margin-right: 50px;
-    
+  list-style: none;
+  margin-right: 50px;
 }
 nav a {
-    text-decoration: none;
-    color: #474747;
+  text-decoration: none;
+  color: #474747;
 }
 /* header related styles */
 .header {
-    background-color: #FFF8F3;
-    background-image: url("/image/pngegg.png");
-    background-repeat: no-repeat;
-    background-position: bottom right;
-    background-size: contain;
+  background-color: #fff8f3;
+  background-image: url("/image/pngegg.png");
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  background-size: contain;
 }
 .banner {
-   padding: 30px 30px 0 150px;
-   display: flex;
-   align-items: center;
-   justify-content: space-between;
+  padding: 30px 30px 0 150px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
-.banner-content{
-    max-width: 500px;
+.banner-content {
+  max-width: 500px;
 }
 .banner .profile-pic {
-    width: 500px;
-    height: 500px;
+  width: 500px;
+  height: 500px;
 }
 .banner .background {
-    height: 5px;
-    width: 200px;
+  height: 5px;
+  width: 200px;
 }
-.banner-greeting{
-    font-size: 45px;
-    color: #474747;
-    margin-bottom: 0;
+.banner-greeting {
+  font-size: 45px;
+  color: #474747;
+  margin-bottom: 0;
 }
 .banner-title {
-    font-size: 85px;
-    font-weight: 700;
-    margin-top: 5px;
-    margin-bottom: 20px;
+  font-size: 85px;
+  font-weight: 700;
+  margin-top: 5px;
+  margin-bottom: 20px;
 }
 .section-title {
-    column-rule: #181818;
-    text-align: center;
-   font-size: 35px;
-   font-weight: 700;
-
+  column-rule: #181818;
+  text-align: center;
+  font-size: 35px;
+  font-weight: 700;
 }
 .section-description {
-    color: #757575;
-    text-align: center;
-    font-size: 18px;
+  color: #757575;
+  text-align: center;
+  font-size: 18px;
 }
 /* \main section styles */
-    main {
-        max-width: 1140px;
-        margin: 0 auto;
-    }
+main {
+  max-width: 1140px;
+  margin: 0 auto;
+}
 /* about section styles */
 .about {
-    padding: 130px;
-    border-radius: 10px;
-    font-family: 'Times New Roman', Times, serif;
-    background: #FFF8F3;
-    margin: 130px 0;
+  padding: 130px;
+  border-radius: 10px;
+  font-family: "Times New Roman", Times, serif;
+  background: #fff8f3;
+  margin: 130px 0;
 }
 .about-info-container {
-    display: flex;
-    justify-content: space-around;
+  display: flex;
+  justify-content: space-around;
 }
 .about-info {
-    text-align: center; 
-    
+  text-align: center;
 }
 .img3 {
-    height: 50px;
-    width: 50px;
+  height: 50px;
+  width: 50px;
 }
 
 /* skills related styles */
 
 #what-i-do {
-    padding: 30px 150px;
+  padding: 30px 150px;
 }
 
 .skill {
-    padding: 30px;
-    border-radius: 5px;
-    background: #FFF;
-    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+  padding: 30px;
+  border-radius: 5px;
+  background: #fff;
+  box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
 }
 
 .skill-container {
-    display: flex;
-    gap: 24px;
+  display: flex;
+  gap: 24px;
 }
 .skill-description {
-    color: #757575;
+  color: #757575;
 }
 /* Resume section styles */
 .resume-column-title {
-   color: #474747;
-   font-size: 30px;
-   font-weight: 700; 
+  color: #474747;
+  font-size: 30px;
+  font-weight: 700;
 }
 
 .resume-container {
-    display: flex;
-    gap: 50px;
+  display: flex;
+  gap: 50px;
 }
 .resume-item-title {
-    color: #474747;
-    font-size: 25px;
-    font-weight: 700;
-    margin-bottom: 10px;
+  color: #474747;
+  font-size: 25px;
+  font-weight: 700;
+  margin-bottom: 10px;
 }
 .resume-item-institute {
-    margin-bottom: 20px;
-    margin-top: 0;
+  margin-bottom: 20px;
+  margin-top: 0;
 }
 .resume-item-description {
-    color: #757575;
+  color: #757575;
 }
 
 .resume-container hr {
-    margin: 30px;
+  margin: 30px;
 }
 .download-cv {
-    text-align: center;
-    margin-top: 50px;
+  text-align: center;
+  margin-top: 50px;
 }
 /* footer styles */
 footer {
-    display: flex;
-    gap: 100px;
-    background: #FFF8F3;
-    padding: 130px 200px;
-    margin-top: 100px;
+  display: flex;
+  gap: 100px;
+  background: #fff8f3;
+  padding: 130px 200px;
+  margin-top: 100px;
 }
 .footer-column {
-    width: 50%;
+  width: 50%;
 }
 .social-link a {
-    margin-right: 25px;
-    size: 24px 24px;
+  margin-right: 25px;
+  size: 24px 24px;
 }
-.contact input, textarea {
-    display: block;
-    margin-bottom: 25px;
-   padding: 18px 35px;
-   color: #757575;
-   border-radius: 5px;
-   background-color: #FFF;
-   border: 0;
-   width: 100%;
+.contact input,
+textarea {
+  display: block;
+  margin-bottom: 25px;
+  padding: 18px 35px;
+  color: #757575;
+  border-radius: 5px;
+  background-color: #fff;
+  border: 0;
+  width: 100%;
 }
-
+@media screen and (max-width: 576px) {
+  footer,
+  .banner,
+  nav,
+  nav > ul,
+  .skill-container,
+  .resume-container,
+  .about-info-container {
+    flex-direction: column;
+  }
+  .header {
+    background-image: none;
+    flex-direction: column;
+    width: 100%;
+  }
+  .banner .profile-pic {
+    width: 100%;
+  }
+  .btn-primary {
+    margin-bottom: 15px;
+  }
+  .profile-pic {
+    width: 100%;
+  }
+  #what-i-do,
+  .banner {
+    padding: 15px;
+  }
+  footer,
+  .about {
+    padding: 10px;
+  }
+  .footer-column {
+    width: 100%;
+  }
+  .contact {
+    width: 80%;
+  }
+}
